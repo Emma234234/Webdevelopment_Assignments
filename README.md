@@ -1,4 +1,3 @@
-# Web Development Assignment1
 # David Brown Resume
 
 This project contains a simple HTML resume for **David Brown**, a backend developer. The resume includes sections for contact information, work experience, skills, certifications, education, and references.
