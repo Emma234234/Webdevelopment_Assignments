@@ -17,11 +17,11 @@ This project contains a simple HTML resume for **David Brown**, a backend develo
 
 ## Usage
 
-Open `index.html` in your web browser to view the resume.
+Open `https://emma234234.github.io/Week1_webdevelopment-assign.1/` in your web browser to view the resume.
 
 ## Customization
 
-You can edit `index.html` to update the content and add new sections
+You can edit `https://emma234234.github.io/Week1_webdevelopment-assign.1/` to update the content and add new sections
 
 ## License
 
