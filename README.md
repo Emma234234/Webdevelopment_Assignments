@@ -19,10 +19,6 @@ This project contains a simple HTML resume for **David Brown**, a backend develo
 
 Open https://emma234234.github.io/Week1_webdevelopment-assign.1/ in your web browser to view the resume.
 
-## Customization
-
-You can edit `https://emma234234.github.io/Week1_webdevelopment-assign.1/` to update the content and add new sections
-
 ## License
 
 This project is for personal and educational use.
