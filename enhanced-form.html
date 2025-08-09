@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 - Enhanced HTML Elements</title>
+</head>
+<body>
+    <h2>Definition Lists</h2>
+    <dl>Backend</dl>
+    <dd>A 'server' software that users do not interact with directly</dd>
+    <dt>Frontend</dt>
+    <dd>The presentation layer of software where users interact with </dd>
+    <h2>Nested Lists</h2>
+    <ul>
+        <li>Fruits
+            <ol type="a">
+                <li>Apples</li>
+                <li>Banana</li>
+                <li>Cherry</li>
+            </ol>
+        </li>
+        <li>
+            Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Images</h2>
+            <img src="https://images.pexels.com/photos/32822357/pexels-photo-32822357.jpeg" alt="Picture of a horse." width="300" height="250">
+    <h2>Video</h2>
+            <video controls width="350" height="200">
+                <source src="https://videos.pexels.com/video-files/3987730/3987730-hd_1920_1080_24fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    <h2>Audio</h2>
+    <audio controls>
+        <source src= "https://mdundo.com/dl/5735935" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Forms</h2>
+    <form action="location" method="how" enctype="multipart/form-data">
+        <label for="Name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="profile">Profile Picture:</label>
+        <input type="file" name="profile" id="profile">
+        <br><br>
+        <label for="bio">Bio:</label>
+        <textarea name="bio" id="bio" rows="4" cols="50"></textarea>
+        <br><br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="">--Select Country--</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="rwanda">Rwanda</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
